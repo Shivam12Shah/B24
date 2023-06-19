@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+#bulb{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+}
+button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: yellow;
+    font-family: gilroy;
+    font-weight: 600;
+}
+
+#dag{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
