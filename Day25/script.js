@@ -30,7 +30,6 @@ btn.addEventListener("click", function () {
         h4.style.color = "red";
         btn.textContent = "Add Friend";
         flag = 0;
-        btn
-        .style.transition = "all ease 3s";
+        btn.style.transition = "all ease 3s";
     }
 })
