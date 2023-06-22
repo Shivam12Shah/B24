@@ -11,10 +11,10 @@ html, body{
 #main{
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background-color: rgb(228, 228, 228);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0pc 200px;
 }
 
@@ -23,6 +23,7 @@ html, body{
     height: 300px;
     border-radius: 50%;
     background-color: rgb(255, 214, 214);
+    transition: all ease 0.4s;
 }
 button{
     padding: 15px 30px ;
@@ -32,4 +33,5 @@ button{
     border-radius: 50px;
     background: radial-gradient( rgb(208, 208, 249),rgb(142, 196, 229));
     font-weight: 600;
+    position: sticky;
 }

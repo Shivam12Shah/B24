@@ -6,7 +6,11 @@ btn.addEventListener("click", function(){
     var b = Math.floor(Math.random()*255);
     var c = Math.floor(Math.random()*255);
 
+    var shap = Math.floor(Math.random()*300);
+
     console.log(`rgb(${a}, ${b}, ${c})`);
     box.style. backgroundColor = `rgb(${a}, ${b}, ${c})`;
+    box.style.height = `${shap}px`
+    box.style.width = `${shap}px`
     
 })
