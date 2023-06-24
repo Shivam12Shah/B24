@@ -23,7 +23,13 @@ html, body{
     height: 400px;
     object-fit: cover;
     object-position: center;
+    transition: all ease-in 0.5s;
+
 }
 #main h1{
     text-transform: capitalize;
+    width: 300px;
+    text-align: center;
+    transition: all ease-in 0.5s;
+    
 }
