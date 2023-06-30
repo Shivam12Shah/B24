@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* cursor: none; */
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+}
+#hero{
+    position: relative;
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h1{
+    color: white;
+    font-size: 10vw;
+    text-transform: capitalize;
+    font-family: fantasy;
+    font-weight: 100;
+    
+}
+#circle{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: sticky;
+    mix-blend-mode: difference;
+}
