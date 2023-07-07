@@ -77,3 +77,20 @@ html, body{
 .bubble:hover{
     background-color: rgb(70, 137, 70);
 }
+#game{
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    background-color: rgb(255, 124, 91);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+#game span{
+    color: rgb(8, 8, 8);
+}
+#game h1{
+    color: rgb(255, 0, 0);
+}
