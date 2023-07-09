@@ -65,7 +65,7 @@ html, body{
     color: white;
 }
 #slider .slid:nth-child(2){
-    background-color: #fff;
+    background-color: #e13939;
 }
 #slider .slid:nth-child(3){
     background-color: gray;

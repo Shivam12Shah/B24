@@ -87,10 +87,11 @@ html, body{
     text-align: center;
     justify-content: center;
     border-radius: 10px;
+
 }
 #game span{
-    color: rgb(8, 8, 8);
+    color: black;
 }
 #game h1{
-    color: rgb(255, 0, 0);
+    color: white;
 }
