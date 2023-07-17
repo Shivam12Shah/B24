@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: lightcyan;
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#page3{
+    width: 100%;
+    height: 100%;
+    background-color: lightpink;
+}

@@ -1,0 +1,71 @@
+@font-face {
+    font-family: voyage;
+    src: url(./MADE\ Bon\ Voyage\ Regular\ PERSONAL\ USE.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    position: relative;
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1661302504642-d74954f9fb6b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: blur(20%);
+}
+#page2{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1688842959215-a7b810063d79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#page3{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1688658446343-822874aff333?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#page4{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1688116720218-9084eac0e9d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    position: relative;
+    font-family: voyage;
+    font-size: 150px;
+    color: white;
+    filter: brightness(150%);
+    text-transform: capitalize;
+
+}

@@ -1,4 +1,5 @@
-
+function anime(){
+    
 var tl = gsap.timeline();
 
 tl.from("#nav>h2 , #nav>h3, #nav>img", {
@@ -52,3 +53,6 @@ tl.to("#bottom>img", {
     yoyo:0.5
 })
 
+
+}
+anime();
